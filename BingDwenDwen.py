@@ -129,6 +129,12 @@ turtle.setheading(-90)
 turtle.circle(300, 14)
 turtle.end_fill()
 
+
+import jsonpath
+sumnum=
+new=jsonpath.jsonpath(sumnum,"$..TotalSales")
+new1=sum(new)
+print(new1)
 # 左腿内
 turtle.penup()
 turtle.goto(108, -168)
